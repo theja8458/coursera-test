@@ -139,7 +139,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top-left-radius: 15px;
+    /* border-top-left-radius: 15px; */
     border-top-right-radius: 15px;
 }
 .details p{
@@ -156,7 +156,7 @@ main{
     display: flex;
     justify-content: center;
     margin-top: -50px;
-    border-bottom-left-radius: 15px;
+    /* border-bottom-left-radius: 15px; */
     border-bottom-right-radius: 15px;
 }
 button{
@@ -294,4 +294,259 @@ button:hover{
 #effect:hover{
     transition-duration: 2.5s;
     transform:  rotate(-45deg);
+}
+.container3{
+    margin-top: 30px;
+}
+.topper{
+    height: 450px;
+    width: 350px;
+    background-image: url(zenex-student.png);
+    background-size: cover;
+    background-color: #312c8a;
+    
+}
+.features1 i{
+    height:80px;
+    width: 50px;
+    font-size: 50px;
+    color: #312c8a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inform{
+    display: flex;
+    width: 350px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.inform p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #312c8a;
+}
+.container3{
+    height: 500px;
+    width: 700px;
+    margin-top: 60px;
+}
+.box1{
+    height: 350px;
+    width: 100px;
+    background-color: #312c8a;
+    margin-left: 180PX;
+    margin-top: 140PX;
+    
+}
+.box2{
+    height: 400px;
+    width: 250px;
+    background-color:rgb(243, 237, 237);
+    margin-top: -430px;
+    margin-left: 260px;
+}
+.student{
+    margin-top: -494px;
+    margin-left: 200px;
+}
+.container4{
+    height: 500px;
+    width: 850px;
+    margin-top: 30px;
+}
+.mid{
+    display: flex;
+}
+.box3{
+    display: flex;
+    width: 350px;
+    gap: 20px;
+    /* padding-bottom: 80px; */
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #312c8a;
+    transition: 1s ease-in-out;
+}
+.box3:hover{
+    background-color: #312c8a;
+    transition: 1s ease-in-out;
+    color: white; 
+}
+.box4 p{
+    margin-top: 20px;
+    
+}
+.half{
+    display: flex;
+    gap: 25px;
+}
+.half1{
+    display: flex;
+    gap: 25px;
+}
+.box5{
+    width: 400px;
+   
+}
+.half2{
+    display: flex;
+    gap:25px;
+}
+.container5{
+    margin-top: 50px;
+    margin-left: -70px;
+}
+.mid{
+    padding-top: 90px;
+}
+.container6{
+    margin-top: 100PX;
+    display: flex;
+}
+.best{
+    width: 600px;
+    height: 200px;
+    border-right: 1px blue solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #312c8a;
+    margin-left: 150px;
+    line-height: 55px;
+}
+.best3 p{
+    margin-left: 20px;
+}
+.best2{
+    width: 600px;
+    height: 200px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+.container7{
+    height: 400px;
+    width: 1208px;
+    display: flex;
+    gap: 25px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.box6{
+    height: 370px;
+    width: 280px;
+    border: 2px black solid;
+}
+.box7{
+    width: 280px;
+    height: 150px;
+    background-image: url(image8.jpg);
+    background-size: cover;  
+}
+.box8{
+    height: 220px;
+    width: 280px;
+    background-color: #74Febd;
+    color: black;
+    font-size: 20px;
+    font-weight: 550;  
+    transition: all 1s;   
+}
+.box9{
+    width: 220px;
+    height: 170px;
+    flex-direction: column;
+    line-height: 30px;
+    padding: 20px 5px 10px 20px;
+}
+.line{
+    width: 200px;
+    height: 0.5px;
+    background-color: white;
+    margin-top: 15px;
+}
+.rating{
+    display: flex;
+    gap: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 7px;
+}
+#Commerce{
+font-size: 15px;
+}
+.box8:hover{
+    background-color: #0172AF;
+    transition: all 1s;
+    color: white;
+}
+.box10{
+    width: 280px;
+    height: 150px;
+    background-image: url(image9.jpg);
+    background-size: cover;
+}
+.box11{
+    height: 220px;
+    width: 280px;
+    background-color: #FFf16a;
+    color: black;
+    font-size: 20px;
+    font-weight: 550;  
+    transition: all 1s;   
+}
+.box11:hover{
+    background-color: #ff4066;
+    transition: all 1s;
+    color: white;
+}
+.box12{
+    width: 280px;
+    height: 150px;
+    background-image: url(image10.jpg);
+    background-size: cover;
+}
+.box13{
+    height: 220px;
+    width: 280px;
+    background-color: #64e9ff;
+    color: black;
+    font-size: 20px;
+    font-weight: 550;  
+    transition: all 1s;   
+}
+.box13:hover{
+    background-color: #103ce7;
+    color: white;
+    transition: all 1s;
+}
+.box14{
+    width: 280px;
+    height: 150px;
+    background-image: url(image11.jpg);
+    background-size: cover;
+}
+.box15{
+    height: 220px;
+    width: 280px;
+    background-color: #ee49fd;
+    color: black;
+    font-size: 20px;
+    font-weight: 550;  
+    transition: all 1s;   
+}
+.box15:hover{
+    background-color: #6157ff;
+    color: white;
+    transition: all 1s;
 }
